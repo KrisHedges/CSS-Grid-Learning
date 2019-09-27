@@ -1,0 +1,26 @@
+main.named {
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: 60% 40%;
+  grid-template-areas: "left center right" "bottomleft bottomleft bottomright";
+}
+main.named .section1 {
+  background: #00f;
+  grid-area: center;
+}
+main.named .section2 {
+  background: #008000;
+  grid-area: right;
+}
+main.named .section3 {
+  background: #ffa500;
+  grid-area: left;
+}
+main.named .section4 {
+  background: #f00;
+  grid-area: bottomright;
+}
+main.named .section5 {
+  background: #ff0;
+  grid-area: bottomleft;
+}
