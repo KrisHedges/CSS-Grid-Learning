@@ -1,18 +1,20 @@
 body {
   background: #fff;
-  position: relative;
-  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
+  position: relative;
+  width: 100%;
+}
+main {
+  height: 100%;
+}
+main section {
+  height: 100%;
 }
 main.columns {
   display: grid;
   grid-template-columns: 15% 10% auto 10% 15%;
-  height: 100%;
-}
-main.columns section {
-  height: 100%;
 }
 main.columns .section1 {
   background: #00f;
@@ -38,10 +40,6 @@ main.rows {
   display: grid;
   grid-template-columns: 20% auto 20%;
   grid-template-rows: 60% 40%;
-  height: 100%;
-}
-main.rows section {
-  height: 100%;
 }
 main.rows .section1 {
   background: #00f;
